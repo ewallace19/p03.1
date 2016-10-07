@@ -26,3 +26,7 @@ def run_tests():
 
 # Edit this code
 def looper(n):
+    total = 0
+    for i in range(1, n, 1):
+        total = i * 1 + total
+        print(total)
